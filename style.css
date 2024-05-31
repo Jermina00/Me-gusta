@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 40%;
+    background-color: black;
+    padding: 20px 0;
+    
+}
+
+header .network-title h1 {
+    color: white;
+    margin: 10px;
+}
+
+main {
+    width: 80%;
+    text-align: center;
+}
+
+.feed-title h2 {
+    margin: 20px 0;
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px; 
+}
+
+.profile-card {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    width: 150px;
+    text-align: left;
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.feed-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.feed-card {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 2px 0;
+    width: 400px;
+    text-align: left;
+    position: relative;
+}
+.col2{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+.feed-card h3 {
+    margin-top: 0;
+}
+
+.like-btn {
+    background-color: #ffae00;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 2px 3px black;
+}
+
+.like-btn:hover {
+    background-color: #e0b114;
+}
